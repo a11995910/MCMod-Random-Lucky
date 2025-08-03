@@ -3,5 +3,7 @@
   "item.randomlucky.health_bread.tooltip": "Permanently increases maximum health by 1 heart when consumed",
   "item.randomlucky.hand_crafted_chest": "Hand Crafted Chest",
   "item.randomlucky.super_apple": "Super Apple",
-  "item.randomlucky.super_apple.tooltip": "Grants permanent Night Vision, Fire Resistance, and Speed effects when consumed"
+  "item.randomlucky.super_apple.tooltip": "Grants permanent Night Vision, Fire Resistance, and Speed effects when consumed",
+  "item.randomlucky.big_eater": "Big Eater",
+  "item.randomlucky.big_eater.tooltip": "Permanently increases maximum hunger by 1 bar when consumed"
 }

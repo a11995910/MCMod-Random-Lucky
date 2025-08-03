@@ -1,6 +1,7 @@
 package com.randomlucky.mod.common.registry;
 
 import com.randomlucky.mod.RandomLuckyMod;
+import com.randomlucky.mod.common.item.BigEaterItem;
 import com.randomlucky.mod.common.item.HandCraftedChestItem;
 import com.randomlucky.mod.common.item.HealthBreadItem;
 import com.randomlucky.mod.common.item.SuperAppleItem;
@@ -25,6 +26,10 @@ public class ModItems {
     // 超级苹果
     public static final RegistryObject<Item> SUPER_APPLE = ITEMS.register("super_apple",
         () -> new SuperAppleItem(new Item.Properties().stacksTo(16)));
+
+    // 大胃王
+    public static final RegistryObject<Item> BIG_EATER = ITEMS.register("big_eater",
+        () -> new BigEaterItem());
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

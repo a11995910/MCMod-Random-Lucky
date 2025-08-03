@@ -3,5 +3,7 @@
   "item.randomlucky.health_bread.tooltip": "食用后永久增加1颗心的血量上限",
   "item.randomlucky.hand_crafted_chest": "手作箱子",
   "item.randomlucky.super_apple": "超级苹果",
-  "item.randomlucky.super_apple.tooltip": "食用后获得永久的夜视、抗火、急速效果"
+  "item.randomlucky.super_apple.tooltip": "食用后获得永久的夜视、抗火、急速效果",
+  "item.randomlucky.big_eater": "大胃王",
+  "item.randomlucky.big_eater.tooltip": "食用后永久增加1格饱食度上限"
 }
