@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/randomlucky/issues"
+showAsResourcePack=false
+clientSideOnly=false
+
+[[mods]]
+  modId="randomlucky"
+  version="1.0.0"
+  displayName="Random Lucky Mod"
+  displayURL="https://example.com"
+  logoFile="logo.png"
+  credits="创意合成与强化系统"
+  authors="RandomLucky Team"
+  description='''
+一个增加随机物品合成、装备强化和血量增强面包的mod。
+- 9个木棍可以合成随机物品
+- 三个相同装备可以强化中间装备
+- 钻石+面包可以制作血量增强面包
+'''
+  displayTest="MATCH_VERSION"
+
+[[dependencies.randomlucky]]
+  modId="forge"
+  mandatory=true
+  versionRange="[47,)"
+  ordering="NONE"
+  side="BOTH"
+
+[[dependencies.randomlucky]]
+  modId="minecraft"
+  mandatory=true
+  versionRange="[1.20.1,1.21)"
+  ordering="NONE"
+  side="BOTH"
