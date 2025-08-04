@@ -8,7 +8,7 @@ clientSideOnly=false
 
 [[mods]]
   modId="randomlucky"
-  version="1.1.0"
+  version="1.1.1"
   displayName="Random Lucky Mod"
   displayURL="https://example.com"
   logoFile="logo.png"
@@ -18,9 +18,10 @@ clientSideOnly=false
 一个增加随机物品合成、装备强化、血量增强面包和饱食度增强的mod。
 - 9个木棍可以合成随机物品
 - 三个相同装备可以强化中间装备
-- 钻石+面包可以制作血量增强面包
+- 钻石+面包可以制作血量增强面包（已修复死亡后消失bug）
 - 超级苹果提供永久效果
 - 大胃王增加饱食度上限
+- v1.1.1: 修复血量增强面包死亡后消失的问题
 '''
   displayTest="MATCH_VERSION"
 
